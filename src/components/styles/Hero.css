@@ -1,0 +1,21 @@
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    color: #333;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    animation: fadeIn 3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
